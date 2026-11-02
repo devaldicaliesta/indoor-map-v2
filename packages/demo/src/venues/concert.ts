@@ -44,7 +44,7 @@ const FOOD = [
   'Ayam Geprek Sorak',
 ] as const;
 const DRINK = [
-  'Kopi Kenangan Pagi',
+  'Kopi Embun Pagi',
   'Es Teh Jumbo',
   'Jus Segar Encore',
   'Kopi Susu Soundcheck',

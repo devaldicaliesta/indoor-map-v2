@@ -18,7 +18,7 @@ const FOOD = [
   'Teh Tarik Transit',
   'Sushi Gerbang',
 ];
-const AIRLINES = ['Garuda Biru', 'Nusa Air', 'Rajawali Express', 'Angkasa Jaya', 'Pelangi Air'];
+const AIRLINES = ['Elang Biru', 'Nusa Air', 'Rajawali Express', 'Angkasa Jaya', 'Pelangi Air'];
 
 /**
  * Bandara dua terminal (keberangkatan tiga lantai, kedatangan dua lantai) yang dihubungkan jalur
@@ -179,7 +179,7 @@ export function airportVenue(): SnapshotSource {
       v.location(unit, service, cats.baggage, `Ban Bagasi ${i + 1}`, { hours: always });
       return;
     }
-    const transport = ['Taksi Bandara', 'Bus Damri Kota', 'Kereta Bandara', 'Sewa Mobil'];
+    const transport = ['Taksi Bandara', 'Bus Kota', 'Kereta Bandara', 'Sewa Mobil'];
     const pick = transport[i - 6];
     if (pick) {
       v.location(unit, service, cats.transport, pick, { hours: always });
