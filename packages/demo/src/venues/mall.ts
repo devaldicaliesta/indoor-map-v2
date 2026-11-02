@@ -29,13 +29,13 @@ const STORES: Record<string, readonly string[]> = {
   jewelry: ['Perhiasan Mulia', 'Jam Presisi'],
   kids: ['Dunia Anak', 'Mainan Pelangi'],
   restaurant: [
-    'Rumah Makan Padang Sederhana',
-    'Sate Senayan',
+    'Rumah Makan Padang Sentosa',
+    'Sate Bara',
     'Mie Kocok Bandung',
     'Dapur Peranakan',
     'Sushi Kecil',
   ],
-  cafe: ['Kopi Kenangan Pagi', 'Teh Tarik Corner', 'Roti Hangat'],
+  cafe: ['Kopi Embun Pagi', 'Teh Tarik Corner', 'Roti Hangat'],
   bank: ['Bank Sentosa', 'Bank Daerah'],
   optic: ['Optik Terang'],
   salon: ['Salon Rambut Indah', 'Barbershop Tegas'],
@@ -45,7 +45,7 @@ const STORES: Record<string, readonly string[]> = {
 const ANCHORS: Record<string, readonly [string, string]> = {
   GF: ['Sentosa Department Store', 'Supermarket Segar'],
   L1: ['Sentosa Home Living', 'Elektro Mega Megastore'],
-  L2: ['Zona Bermain Keluarga', 'Bioskop Sentosa XXI'],
+  L2: ['Zona Bermain Keluarga', 'Bioskop Sentosa'],
 };
 
 /** Jari-jari garis tengah koridor cincin atrium. */
