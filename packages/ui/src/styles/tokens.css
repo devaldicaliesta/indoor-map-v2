@@ -1,0 +1,40 @@
+/*
+ * Token desain PanduArah.
+ * Hanya file ini yang boleh berisi nilai warna. Komponen memakai kelas Tailwind
+ * yang dipetakan ke token di theme.css.
+ */
+:root {
+  /* Warna antarmuka */
+  --ink: #111418;
+  --ink-muted: #545b64;
+  --line: #d5d9de;
+  --surface: #ffffff;
+  --canvas: #f2f3ef;
+  --signal: #ffc20e;
+  --signal-soft: #ffe9a8;
+  --route: #1463ff;
+  --danger: #c8321e;
+  --ok: #12805c;
+  --warn: #b26a00; /* hanya elemen non-teks: 4,24:1 di atas --surface */
+  /* Teks di atas --route dan --danger */
+  --on-strong: #ffffff;
+  /* Teks di atas --signal dan --route; branding venue bisa menggantinya (apply-branding.ts) */
+  --on-signal: var(--ink);
+  --on-route: var(--on-strong);
+  /* Warna logo PanduArah (docs/brand): hanya untuk logo, bukan aksen antarmuka */
+  --brand-blue: #0f4a91;
+  --brand-yellow: #fec409;
+  --brand-ink: #04080b;
+
+  /* Bentuk */
+  --float-shadow: 0 1px 2px rgb(0 0 0 / 0.12), 0 4px 12px rgb(0 0 0 / 0.08);
+
+  /* Font */
+  --font-plex-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --font-atkinson: "Atkinson Hyperlegible", system-ui, sans-serif;
+
+  --font-body: var(--font-atkinson);
+  --body-size: 16px;
+  --control-height: 44px;
+  --panel-padding: 20px;
+}

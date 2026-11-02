@@ -1,0 +1,1 @@
+export { DEFAULT_INSTRUCTION_TEMPLATES as DEFAULT_TEMPLATES } from '@indoor/domain';

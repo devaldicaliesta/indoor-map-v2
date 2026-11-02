@@ -1,0 +1,265 @@
+{
+  "app": {
+    "name": "PanduArah"
+  },
+  "search": {
+    "label": "Search locations",
+    "placeholder": "Search places…",
+    "placeholderIn": "Search {{name}}…",
+    "clear": "Clear search",
+    "results": "Search results",
+    "count_one": "{{count}} result",
+    "count_other": "{{count}} results",
+    "emptyTitle": "No results for “{{query}}”",
+    "emptyDescription": "Check the spelling, try a unit code, or browse all places A–Z.",
+    "categoryHit_one": "Category · {{count}} place",
+    "categoryHit_other": "Category · {{count}} places",
+    "facilityTypeHit_one": "Facility · {{count}} spot",
+    "facilityTypeHit_other": "Facility · {{count}} spots"
+  },
+  "language": {
+    "label": "Language",
+    "id": "Bahasa Indonesia",
+    "en": "English"
+  },
+  "map": {
+    "label": "Map",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "resetNorth": "Reset to north",
+    "floors": "Floors",
+    "resetView": "Back to the start view",
+    "people": "People illustration on the map (not real visitor data)",
+    "building": "Building",
+    "floorHasResults": "has results",
+    "canvas": "Floor map. Arrow keys move the map, + and − zoom in or out.",
+    "unsupportedTitle": "This device can’t show the map",
+    "unsupportedDescription": "Search, place details, and route steps still work in the panel."
+  },
+  "sheet": {
+    "handle": "Resize panel",
+    "hint": "Press the up or down arrow to resize the panel"
+  },
+  "venue": {
+    "unavailableTitle": "Demo not found",
+    "unavailableDescription": "This address is not one of the demo buildings. Go back to the home page to pick a demo building.",
+    "loadFailedTitle": "The map could not be loaded",
+    "loadFailedDescription": "Check your internet connection, then try again.",
+    "retry": "Try again"
+  },
+  "info": {
+    "open": "Map information",
+    "close": "Close",
+    "description": "This map is updated whenever the building manager publishes a new version.",
+    "version": "Map version",
+    "publishedAt": "Published",
+    "poweredBy": "Powered by {{tagline}}",
+    "openSource": "Open-source licenses"
+  },
+  "explore": {
+    "chips": "Categories and facilities",
+    "directoryChip": "A–Z",
+    "directoryTitle": "All places A–Z",
+    "openDirectory": "Open the A–Z list",
+    "hint": "Search for a place name or unit code, pick a category, or open the A–Z list.",
+    "closeList": "Close list",
+    "back": "Back",
+    "locationCount_one": "{{count}} place",
+    "locationCount_other": "{{count}} places",
+    "facilityCount_one": "{{count}} spot",
+    "facilityCount_other": "{{count}} spots",
+    "filterBuilding": "Filter by building",
+    "filterFloor": "Filter by floor",
+    "filterType": "Filter by type",
+    "allBuildings": "All buildings",
+    "allFloors": "All floors",
+    "allTypes": "All types",
+    "outdoorArea": "Outdoor area",
+    "directoryEmpty": "No places match these filters. Change or clear a filter."
+  },
+  "location": {
+    "route": "Directions to here",
+    "notOnMap": "Not on the map yet",
+    "comingSoon": "Opening soon",
+    "comingSoonFrom": "Opening soon · from {{date}}",
+    "temporarilyClosed": "Temporarily closed",
+    "photo": "Photo of {{name}} {{number}}",
+    "yes": "Yes",
+    "no": "No",
+    "missingTitle": "Not found on this map",
+    "missingDescription": "Go back and search again by name or unit code."
+  },
+  "unit": {
+    "label": "Unit"
+  },
+  "origin": {
+    "youAreHere": "You are here",
+    "mapPoint": "Point on the map",
+    "here": "I'm here",
+    "change": "Change",
+    "cancel": "Cancel",
+    "chooseTitle": "Where are you now?",
+    "chooseHint": "Search for the place you are at, open it, then choose “I'm here”. Or tap your position on the map.",
+    "tapMap": "Tap the map",
+    "tapHint": "Tap your position on the map.",
+    "chooseHintNoMap": "Search for the place you are at, open it, then choose “I'm here”."
+  },
+  "route": {
+    "title": "Route",
+    "from": "From",
+    "to": "To",
+    "close": "Close route",
+    "swap": "Swap start and destination",
+    "accessible": "Accessible route (wheelchair)",
+    "distance": "{{distance}} m",
+    "floors": "Floors on the route",
+    "steps": "Route steps",
+    "stepOf": "Step {{current}} of {{total}}",
+    "previous": "Previous",
+    "next": "Next",
+    "allSteps": "All steps",
+    "failNoPath": "There is no route from your starting point to this destination.",
+    "failAccessible": "There is no accessible route to this destination. Turn off “Accessible route” to see other routes.",
+    "failClosed": "The route to this destination is temporarily closed.",
+    "failOrigin": "Your starting point is not connected to a path. Change the starting point.",
+    "failDestination": "This destination is not connected to a path yet.",
+    "detour": "The route takes a detour because of a temporary closure:",
+    "closedBecause": "Temporary closure:"
+  },
+  "share": {
+    "button": "Share",
+    "copied": "Link copied",
+    "manual": "Copy this link:"
+  },
+  "hours": {
+    "openUntil": "Open · closes {{time}}",
+    "open24": "Open 24 hours",
+    "closed": "Closed",
+    "closedOpensToday": "Closed · opens {{time}}",
+    "closedOpensTomorrow": "Closed · opens tomorrow {{time}}",
+    "closedOpensOn": "Closed · opens {{day}} {{time}}",
+    "day": {
+      "mon": "Monday",
+      "tue": "Tuesday",
+      "wed": "Wednesday",
+      "thu": "Thursday",
+      "fri": "Friday",
+      "sat": "Saturday",
+      "sun": "Sunday"
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "This address does not exist. Scan the QR code in the building again or open the link from the building management.",
+    "home": "Go to home"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "description": "The page could not be shown. Reload to try again.",
+    "reload": "Reload"
+  },
+  "tour": {
+    "next": "Next",
+    "previous": "Back",
+    "done": "Done",
+    "skip": "Skip",
+    "progress": "{{current}} of {{total}}",
+    "button": "How to use the map",
+    "venue": {
+      "introTitle": "Welcome",
+      "introBody": "This map helps you find places and routes in {{name}}. This short tour shows you how.",
+      "searchTitle": "Search places",
+      "searchBody": "Type a place name, room code, or service. Small typos are still found.",
+      "chipsTitle": "Categories and facilities",
+      "chipsBody": "Pick a category or a facility such as toilets to see every place of that kind. A–Z lists every place.",
+      "floorsTitle": "Change floor",
+      "floorsBody": "Pick the floor you want to see. Floors with search results are marked.",
+      "controlsTitle": "Map controls",
+      "controlsBody": "Zoom in or out, face north, or go back to the starting view.",
+      "placeTitle": "Place card and route",
+      "placeBody": "Tap a place on the map or in the results to open its card. Directions to here shows step-by-step directions, and Share sends a link to someone else.",
+      "languageTitle": "Language",
+      "languageBody": "Switch between Indonesian and English at any time.",
+      "infoTitle": "Map info",
+      "infoBody": "The map version is here, along with a button to replay this tour."
+    }
+  },
+  "landing": {
+    "homeLabel": "PanduArah home",
+    "opening": "Opening demo…",
+    "navLabel": "Main navigation",
+    "nav": {
+      "how": "How it works",
+      "demo": "Demo"
+    },
+    "hero": {
+      "eyebrow": "Indoor navigation",
+      "title": "Lost inside a building? Scan the code, then follow the map.",
+      "description": "PanduArah is an indoor map with step-by-step directions that opens right in the phone browser, including routes between floors by elevator, escalator, or stairs.",
+      "fact1": "No beacons",
+      "fact2": "No app to install",
+      "fact3": "Works offline",
+      "primary": "Try the hospital demo",
+      "secondary": "Pick a demo building",
+      "imageAlt": "Animated route from the lobby, up the elevator, to Radiology on the upper floor"
+    },
+    "steps": {
+      "title": "Three steps to your destination",
+      "scanTitle": "Scan the nearest QR code",
+      "scanText": "A QR code in the lobby, elevator, or parking area sets your starting point. You can also pick it manually.",
+      "searchTitle": "Search for a place",
+      "searchText": "Type a room, shop, or facility name. Search forgives typos.",
+      "followTitle": "Follow the route step by step",
+      "followText": "Clear directions like \"Go straight 20 m\" and \"Take the elevator to L1\", shown on the map."
+    },
+    "demos": {
+      "title": "Pick a demo building",
+      "description": "Seven fictional buildings with sample data. Everything runs on your device, with no login and no server.",
+      "open": "Open demo"
+    },
+    "kinds": {
+      "hospital": "Hospital",
+      "mall": "Shopping mall",
+      "campus": "Campus",
+      "office": "Office tower",
+      "airport": "Airport",
+      "factory": "Industrial park",
+      "concert": "Stadium & concert"
+    },
+    "missions": {
+      "hospital": "Find Radiology, then follow the route from Registration across floors.",
+      "mall": "Browse shops by category and route between floors by escalator.",
+      "campus": "Find classrooms and the library in two buildings joined by an outdoor area.",
+      "office": "Find a meeting room in a six-floor tower with a central elevator core.",
+      "airport": "Follow the route from the check-in counter to the departure gate.",
+      "factory": "See production lines, warehouses, fire extinguishers, and emergency exits in three buildings.",
+      "concert": "Find stands, the accessible area, and food booths in an oval stadium."
+    },
+    "features": {
+      "title": "Why PanduArah",
+      "hardwareTitle": "No hardware",
+      "hardwareText": "Printed QR codes are enough. No beacons to buy, install, or replace batteries in.",
+      "appTitle": "No app to install",
+      "appText": "The map opens in the browser and can be added to the home screen like an app.",
+      "offlineTitle": "Works offline",
+      "offlineText": "Maps, search, and routes are computed on the phone after the first visit.",
+      "accessibleTitle": "Accessible routes",
+      "accessibleText": "Wheelchair mode avoids stairs and escalators, and temporary closures are routed around automatically.",
+      "languageTitle": "Two languages",
+      "languageText": "Indonesian and English, including the direction texts.",
+      "shareTitle": "Share routes",
+      "shareText": "Send a place or a route as a link, with no personal data."
+    },
+    "edition": {
+      "title": "This is the landing page and demo edition",
+      "description": "This open-source repository contains the landing page and the visitor demo. The map editor, building manager console, and installation for your building are part of the full version of PanduArah.",
+      "contact": "Contact us",
+      "site": "PanduArah website"
+    },
+    "footer": {
+      "label": "Footer links",
+      "copyright": "© {{year}} Devaldi Caliesta · MIT License",
+      "source": "Source code"
+    }
+  }
+}

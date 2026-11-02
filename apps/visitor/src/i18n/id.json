@@ -1,0 +1,265 @@
+{
+  "app": {
+    "name": "PanduArah"
+  },
+  "search": {
+    "label": "Cari lokasi",
+    "placeholder": "Cari lokasi…",
+    "placeholderIn": "Cari di {{name}}…",
+    "clear": "Hapus pencarian",
+    "results": "Hasil pencarian",
+    "count_one": "{{count}} hasil",
+    "count_other": "{{count}} hasil",
+    "emptyTitle": "Tidak ada hasil untuk “{{query}}”",
+    "emptyDescription": "Periksa ejaan, coba kode unit, atau telusuri semua lokasi A–Z.",
+    "categoryHit_one": "Kategori · {{count}} lokasi",
+    "categoryHit_other": "Kategori · {{count}} lokasi",
+    "facilityTypeHit_one": "Fasilitas · {{count}} tempat",
+    "facilityTypeHit_other": "Fasilitas · {{count}} tempat"
+  },
+  "language": {
+    "label": "Bahasa",
+    "id": "Bahasa Indonesia",
+    "en": "English"
+  },
+  "map": {
+    "label": "Peta",
+    "zoomIn": "Perbesar",
+    "zoomOut": "Perkecil",
+    "resetNorth": "Arahkan ke utara",
+    "floors": "Lantai",
+    "resetView": "Kembali ke tampilan awal",
+    "people": "Ilustrasi orang di peta (bukan data pengunjung nyata)",
+    "building": "Gedung",
+    "floorHasResults": "ada hasil",
+    "canvas": "Peta lantai. Tombol panah menggeser peta, + dan − memperbesar atau memperkecil.",
+    "unsupportedTitle": "Perangkat ini tidak mendukung peta",
+    "unsupportedDescription": "Pencarian, info tempat, dan langkah rute tetap bisa dipakai di panel."
+  },
+  "sheet": {
+    "handle": "Ubah tinggi panel",
+    "hint": "Tekan panah atas atau bawah untuk mengubah tinggi panel"
+  },
+  "venue": {
+    "unavailableTitle": "Demo tidak ditemukan",
+    "unavailableDescription": "Alamat ini bukan salah satu gedung demo. Kembali ke beranda untuk memilih gedung demo.",
+    "loadFailedTitle": "Peta tidak bisa dimuat",
+    "loadFailedDescription": "Periksa koneksi internet, lalu coba lagi.",
+    "retry": "Coba lagi"
+  },
+  "info": {
+    "open": "Informasi peta",
+    "close": "Tutup",
+    "description": "Peta ini diperbarui setiap kali pengelola gedung menerbitkan versi baru.",
+    "version": "Versi peta",
+    "publishedAt": "Diterbitkan",
+    "poweredBy": "Didukung oleh {{tagline}}",
+    "openSource": "Lisensi komponen sumber terbuka"
+  },
+  "explore": {
+    "chips": "Kategori dan fasilitas",
+    "directoryChip": "A–Z",
+    "directoryTitle": "Semua lokasi A–Z",
+    "openDirectory": "Buka daftar A–Z",
+    "hint": "Cari nama lokasi atau kode unit, pilih kategori, atau buka daftar A–Z.",
+    "closeList": "Tutup daftar",
+    "back": "Kembali",
+    "locationCount_one": "{{count}} lokasi",
+    "locationCount_other": "{{count}} lokasi",
+    "facilityCount_one": "{{count}} tempat",
+    "facilityCount_other": "{{count}} tempat",
+    "filterBuilding": "Saring gedung",
+    "filterFloor": "Saring lantai",
+    "filterType": "Saring tipe",
+    "allBuildings": "Semua gedung",
+    "allFloors": "Semua lantai",
+    "allTypes": "Semua tipe",
+    "outdoorArea": "Area Luar",
+    "directoryEmpty": "Tidak ada lokasi dengan filter ini. Ubah atau hapus filter."
+  },
+  "location": {
+    "route": "Rute ke sini",
+    "notOnMap": "Belum ada di peta",
+    "comingSoon": "Segera buka",
+    "comingSoonFrom": "Segera buka · mulai {{date}}",
+    "temporarilyClosed": "Tutup sementara",
+    "photo": "Foto {{name}} {{number}}",
+    "yes": "Ya",
+    "no": "Tidak",
+    "missingTitle": "Tidak ditemukan di peta ini",
+    "missingDescription": "Kembali lalu cari lagi dengan nama atau kode unit."
+  },
+  "unit": {
+    "label": "Unit"
+  },
+  "origin": {
+    "youAreHere": "Anda di sini",
+    "mapPoint": "Titik di peta",
+    "here": "Saya di sini",
+    "change": "Ganti",
+    "cancel": "Batal",
+    "chooseTitle": "Anda sedang di mana?",
+    "chooseHint": "Cari tempat Anda berada, buka, lalu pilih “Saya di sini”. Atau ketuk posisi Anda di peta.",
+    "tapMap": "Ketuk di peta",
+    "tapHint": "Ketuk posisi Anda di peta.",
+    "chooseHintNoMap": "Cari tempat Anda berada, buka, lalu pilih “Saya di sini”."
+  },
+  "route": {
+    "title": "Rute",
+    "from": "Dari",
+    "to": "Ke",
+    "close": "Tutup rute",
+    "swap": "Tukar asal dan tujuan",
+    "accessible": "Rute aksesibel (kursi roda)",
+    "distance": "{{distance}} m",
+    "floors": "Lantai yang dilewati",
+    "steps": "Langkah rute",
+    "stepOf": "Langkah {{current}} dari {{total}}",
+    "previous": "Sebelumnya",
+    "next": "Berikutnya",
+    "allSteps": "Semua langkah",
+    "failNoPath": "Tidak ada rute dari titik asal ke tujuan ini.",
+    "failAccessible": "Tidak ada rute aksesibel ke tujuan ini. Matikan “Rute aksesibel” untuk melihat rute lain.",
+    "failClosed": "Rute ke tujuan ini tertutup sementara.",
+    "failOrigin": "Titik asal tidak terhubung ke jalur. Ganti titik asal.",
+    "failDestination": "Tujuan ini belum terhubung ke jalur.",
+    "detour": "Rute memutar karena ada penutupan sementara:",
+    "closedBecause": "Penutupan sementara:"
+  },
+  "share": {
+    "button": "Bagikan",
+    "copied": "Tautan disalin",
+    "manual": "Salin tautan ini:"
+  },
+  "hours": {
+    "openUntil": "Buka · tutup {{time}}",
+    "open24": "Buka 24 jam",
+    "closed": "Tutup",
+    "closedOpensToday": "Tutup · buka {{time}}",
+    "closedOpensTomorrow": "Tutup · buka besok {{time}}",
+    "closedOpensOn": "Tutup · buka {{day}} {{time}}",
+    "day": {
+      "mon": "Senin",
+      "tue": "Selasa",
+      "wed": "Rabu",
+      "thu": "Kamis",
+      "fri": "Jumat",
+      "sat": "Sabtu",
+      "sun": "Minggu"
+    }
+  },
+  "notFound": {
+    "title": "Halaman tidak ditemukan",
+    "description": "Alamat ini tidak ada. Pindai lagi QR di gedung atau buka tautan dari pengelola gedung.",
+    "home": "Ke beranda"
+  },
+  "error": {
+    "title": "Terjadi kesalahan",
+    "description": "Halaman tidak bisa ditampilkan. Muat ulang untuk mencoba lagi.",
+    "reload": "Muat ulang"
+  },
+  "tour": {
+    "next": "Lanjut",
+    "previous": "Kembali",
+    "done": "Selesai",
+    "skip": "Lewati",
+    "progress": "{{current}} dari {{total}}",
+    "button": "Cara pakai peta",
+    "venue": {
+      "introTitle": "Selamat datang",
+      "introBody": "Peta ini membantu Anda menemukan tempat dan rute di {{name}}. Tur singkat ini menunjukkan caranya.",
+      "searchTitle": "Cari tempat",
+      "searchBody": "Ketik nama tempat, kode ruang, atau layanan. Salah ketik kecil tetap ditemukan.",
+      "chipsTitle": "Kategori dan fasilitas",
+      "chipsBody": "Pilih kategori atau fasilitas seperti toilet untuk melihat semua tempat sejenis. A–Z berisi daftar semua tempat.",
+      "floorsTitle": "Ganti lantai",
+      "floorsBody": "Pilih lantai yang ingin dilihat. Lantai yang berisi hasil pencarian diberi tanda.",
+      "controlsTitle": "Kendali peta",
+      "controlsBody": "Perbesar, perkecil, arahkan ke utara, atau kembali ke tampilan awal.",
+      "placeTitle": "Kartu tempat dan rute",
+      "placeBody": "Ketuk tempat di peta atau hasil cari untuk membuka kartunya. Rute ke sini menampilkan langkah demi langkah, dan Bagikan mengirim tautan ke orang lain.",
+      "languageTitle": "Bahasa",
+      "languageBody": "Ganti bahasa antara Indonesia dan Inggris kapan saja.",
+      "infoTitle": "Info peta",
+      "infoBody": "Versi peta ada di sini, beserta tombol untuk mengulang tur ini."
+    }
+  },
+  "landing": {
+    "homeLabel": "Beranda PanduArah",
+    "opening": "Membuka demo…",
+    "navLabel": "Navigasi utama",
+    "nav": {
+      "how": "Cara kerja",
+      "demo": "Demo"
+    },
+    "hero": {
+      "eyebrow": "Navigasi dalam gedung",
+      "title": "Tersesat di dalam gedung? Pindai kodenya, lalu ikuti petanya.",
+      "description": "PanduArah adalah peta dan petunjuk arah di dalam gedung yang terbuka langsung di browser ponsel, termasuk rute naik-turun lantai lewat lift, eskalator, atau tangga.",
+      "fact1": "Tanpa beacon",
+      "fact2": "Tanpa unduh aplikasi",
+      "fact3": "Tetap jalan tanpa internet",
+      "primary": "Coba demo rumah sakit",
+      "secondary": "Pilih gedung demo",
+      "imageAlt": "Animasi rute dari lobi, naik lift, sampai ke Radiologi di lantai atas"
+    },
+    "steps": {
+      "title": "Tiga langkah sampai tujuan",
+      "scanTitle": "Pindai QR di titik terdekat",
+      "scanText": "Kode QR di lobi, lift, atau parkir memberi tahu posisi awal. Bisa juga dipilih manual.",
+      "searchTitle": "Cari tujuan",
+      "searchText": "Ketik nama ruangan, toko, atau fasilitas. Pencarian memaafkan salah ketik.",
+      "followTitle": "Ikuti rute langkah demi langkah",
+      "followText": "Petunjuk jelas seperti \"Jalan lurus 20 m\" dan \"Naik lift ke L1\", lengkap dengan peta."
+    },
+    "demos": {
+      "title": "Pilih gedung demo",
+      "description": "Tujuh gedung fiktif dengan data contoh. Semuanya berjalan di perangkat Anda, tanpa login dan tanpa server.",
+      "open": "Buka demo"
+    },
+    "kinds": {
+      "hospital": "Rumah sakit",
+      "mall": "Pusat perbelanjaan",
+      "campus": "Kampus",
+      "office": "Perkantoran",
+      "airport": "Bandara",
+      "factory": "Kawasan industri",
+      "concert": "Stadion & konser"
+    },
+    "missions": {
+      "hospital": "Cari Radiologi, lalu ikuti rute dari Pendaftaran sampai berpindah lantai.",
+      "mall": "Jelajahi toko per kategori dan cari rute antar lantai lewat eskalator.",
+      "campus": "Temukan kelas dan perpustakaan di dua gedung yang dihubungkan Area Luar.",
+      "office": "Cari ruang rapat di menara enam lantai dengan inti lift di tengah.",
+      "airport": "Ikuti rute dari konter check-in sampai ke gerbang keberangkatan.",
+      "factory": "Lihat lini produksi, gudang, APAR, dan pintu darurat di tiga gedung.",
+      "concert": "Cari tribun, area disabilitas, dan booth kuliner di stadion oval."
+    },
+    "features": {
+      "title": "Kenapa PanduArah",
+      "hardwareTitle": "Tanpa perangkat keras",
+      "hardwareText": "Cukup kode QR yang dicetak. Tidak ada beacon yang harus dibeli, dipasang, atau diganti baterainya.",
+      "appTitle": "Tanpa unduh aplikasi",
+      "appText": "Peta terbuka di browser dan bisa ditambahkan ke layar utama seperti aplikasi.",
+      "offlineTitle": "Tetap jalan tanpa internet",
+      "offlineText": "Peta, pencarian, dan rute dihitung di ponsel setelah dibuka sekali.",
+      "accessibleTitle": "Rute aksesibel",
+      "accessibleText": "Mode kursi roda menghindari tangga dan eskalator, dan penutupan sementara otomatis dihindari.",
+      "languageTitle": "Dua bahasa",
+      "languageText": "Indonesia dan Inggris, termasuk teks petunjuk arah.",
+      "shareTitle": "Bagikan rute",
+      "shareText": "Kirim lokasi atau rute lewat tautan, tanpa data pribadi."
+    },
+    "edition": {
+      "title": "Ini edisi landing page dan demo",
+      "description": "Repositori open source ini berisi landing page dan demo pengunjung. Editor peta, panel pengelola gedung, dan pemasangan untuk gedung Anda tersedia di versi lengkap PanduArah.",
+      "contact": "Hubungi kami",
+      "site": "Situs PanduArah"
+    },
+    "footer": {
+      "label": "Tautan kaki halaman",
+      "copyright": "© {{year}} Devaldi Caliesta · Lisensi MIT",
+      "source": "Kode sumber"
+    }
+  }
+}

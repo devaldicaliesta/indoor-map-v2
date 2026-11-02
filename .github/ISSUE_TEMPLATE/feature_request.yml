@@ -1,0 +1,59 @@
+name: ✨ Usulan fitur
+description: Punya ide untuk membuat PanduArah lebih berguna? / Suggest an idea
+title: "[Fitur]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Terima kasih atas idenya! 💡 Ceritakan **masalahnya** lebih dulu, baru solusinya. Itu membantu kami mencari cara terbaik untuk menyelesaikannya.
+
+        Sebelum mengirim, cek juga [Roadmap di README](https://github.com/devaldicaliesta/indoor-map-v2#readme). Bisa jadi idenya sudah direncanakan.
+
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Untuk siapa fitur ini?
+      options:
+        - Pengunjung (demo)
+        - Calon pengguna (landing page)
+        - Developer / kontributor
+        - Lainnya
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Masalah apa yang ingin diselesaikan?
+      description: Situasi nyata yang Anda alami, dan kenapa itu menyulitkan.
+      placeholder: Di rumah sakit kami, pasien sering bertanya poli mana yang paling dekat dari posisi mereka…
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solusi yang Anda bayangkan
+      placeholder: Tombol "Fasilitas terdekat" yang menampilkan toilet, musala, dan ATM terdekat dari titik asal.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatif yang sudah dipertimbangkan
+      description: Opsional. Cara lain atau solusi sementara yang Anda pakai sekarang.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: contribute
+    attributes:
+      label: Mau ikut mengerjakannya?
+      options:
+        - Ya, saya ingin mengerjakannya
+        - Mungkin, dengan bimbingan
+        - Tidak, hanya mengusulkan
+    validations:
+      required: true

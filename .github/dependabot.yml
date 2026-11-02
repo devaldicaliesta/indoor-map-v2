@@ -1,0 +1,33 @@
+# Dependabot: PR otomatis untuk pembaruan dependency, diarahkan ke branch develop.
+# Pembaruan minor/patch digabung per ekosistem agar PR tidak menumpuk.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    target-branch: develop
+    schedule:
+      interval: weekly
+      day: monday
+      time: '08:00'
+      timezone: Asia/Jakarta
+    # Tunggu beberapa hari setelah versi baru terbit, mengurangi risiko paket berbahaya yang baru diunggah.
+    cooldown:
+      default-days: 5
+    open-pull-requests-limit: 5
+    groups:
+      npm-minor-patch:
+        update-types: [minor, patch]
+    commit-message:
+      prefix: 'chore(deps)'
+
+  - package-ecosystem: github-actions
+    directory: /
+    target-branch: develop
+    schedule:
+      interval: monthly
+      timezone: Asia/Jakarta
+    groups:
+      actions:
+        patterns: ['*']
+    commit-message:
+      prefix: 'chore(ci)'

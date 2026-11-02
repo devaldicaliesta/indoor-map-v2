@@ -1,0 +1,90 @@
+name: 🐛 Laporan bug
+description: Ada yang tidak berjalan sebagaimana mestinya? / Something isn't working?
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Terima kasih sudah melapor! 🙏 Laporan yang jelas membantu bug cepat diperbaiki.
+
+        ⚠️ **Celah keamanan jangan dilaporkan di sini.** Gunakan tab **Security → Report a vulnerability** (lihat [SECURITY.md](https://github.com/devaldicaliesta/indoor-map-v2/blob/main/SECURITY.md)).
+        🔒 Hapus data pribadi (email, nomor telepon, token) dari teks dan tangkapan layar sebelum mengirim.
+
+  - type: dropdown
+    id: app
+    attributes:
+      label: Bagian yang terdampak
+      description: Di aplikasi mana bug ini terjadi?
+      options:
+        - Landing page
+        - Demo (peta di ponsel)
+        - Instalasi / pengembangan lokal
+        - Lainnya
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: Apa yang terjadi?
+      description: Jelaskan bug-nya secara singkat.
+      placeholder: Rute tidak muncul saat memilih tujuan di lantai lain…
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Langkah untuk mereproduksi
+      description: Langkah demi langkah sampai bug muncul.
+      placeholder: |
+        1. Buka https://app.panduarah.my.id/v/demo
+        2. Cari "Radiologi"
+        3. Ketuk "Rute ke sini"
+        4. …
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Yang diharapkan
+      placeholder: Rute tampil dan peta berpindah ke lantai tujuan.
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Tangkapan layar atau log
+      description: Seret gambar ke sini, atau tempel pesan error dari konsol browser / terminal.
+    validations:
+      required: false
+
+  - type: input
+    id: environment
+    attributes:
+      label: Perangkat dan browser
+      placeholder: "Android 15, Chrome 141 / macOS, Safari 19 / Node 22, Docker 29"
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Versi atau commit
+      description: Isi bila Anda menjalankan dari kode sumber (`git rev-parse --short HEAD`).
+      placeholder: "develop @ a1b2c3d"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Sebelum mengirim
+      options:
+        - label: Saya sudah mencari di issue yang ada dan belum ada laporan yang sama.
+          required: true
+        - label: Laporan ini tidak berisi data pribadi atau rahasia.
+          required: true
